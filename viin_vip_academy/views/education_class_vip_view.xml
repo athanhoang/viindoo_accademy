@@ -1,0 +1,80 @@
+ <odoo>
+  <data>
+  	<record id="education_class_vip_view_tree" model="ir.ui.view">
+  		<field name="name">Class VIP</field>
+  		<field name="model">education.class.vip</field>
+  		<field name="arch" type="xml">
+  			<tree string="Class List">
+  				<field name="name"/>
+  				<field name="state"/>
+  				<field name="currency_id"/>
+  				<field name="credit"/>
+  				<field name="contry_id"/>
+  			</tree>
+  		</field>
+  	</record>
+  	<record id="education_class_view_vip_form" model="ir.ui.view">
+  		<field name="name">Class Vip</field>
+  		<field name="model">education.class.vip</field>
+  		<field name="arch" type="xml">
+	  		<form>
+	  			<header>
+	  				<field name="state" title="State" widget="statusbar"/>
+	  			</header>
+	  			<sheet>
+	  				<widget name="web_ribbon" title="Đã lưu trữ" bg_color="bg-warning" attrs="{'invisible': [('active', '=', True)]}" />
+	  				<field name="active" invisible="1"/>
+		  			<group>
+		  				<group>
+		  					<field name="name" placeholder="Input yours name"/>
+			  				<field name="currency_id"/>
+			  				<field name="credit"/>
+			  				<field name="contry_id"/>
+		  				</group>
+		  			</group>
+	  				<notebook>
+	  					<page name="books" string="Books">
+	  						<group>
+	  							<field name="books" string="Books"/>
+	  							<field name="description" string="Detals"/>
+	  						</group>
+	  					</page>
+	  					<page name="student" string="Student">
+ 							<tree>
+ 								<field name="student_ids" string="Detals"/>
+	  						</tree>
+	  					</page>
+	  				</notebook>
+	  			</sheet>
+  				<div class="oe_chatter">
+  					<field name ="message_follower_ids" widget="mail_followers"/>
+  					<field name="activity_ids" widget="mail_activity"/>
+  					<field name="message_ids" widget="mail_thread"/>
+  				</div>
+	  		</form>
+  		</field>
+  	</record>
+  	<record id="education_class_vip_action" model="ir.actions.act_window">
+	  	<field name="name">Class Vip</field>
+	  	<field name="res_model">education.class.vip</field>
+	  	<field name="view_mode">tree,form</field>
+  	</record>
+  	<record id="education_class_vip_view_search" model="ir.ui.view">
+	<field name="name">education.class.vip.search</field>
+	<field name="model">education.class.vip</field>
+	<field name="arch" type="xml">
+		<search string="Class List">
+			<field name="name"/>
+			<filter string='Draft' name="ftr_state_draft" domain="[('state','=','draft')]"/>
+			<separator/>
+			<filter string='Draft or Confirm' name="ftr_state_draft_confirm" domain="[('state','in',('draft','confirm'))]"/>
+			<group expand="0" string="Group by">
+				<filter string="Status" name="gpr_state" context="{'group_by':'state'}" />
+				<filter string="Create date" name="gpr_create_date" context="{'group_by':'create_date'}" />
+			</group>
+		</search>
+	</field>
+	</record>
+  	<menuitem id="education_class_vip_menu" name="Class Vip" parent="viindoo_accademy.education_class_root" action="education_class_vip_action" sequence="12"></menuitem>
+   </data>
+</odoo>

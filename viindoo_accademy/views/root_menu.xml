@@ -1,0 +1,5 @@
+ <odoo>
+  <data>
+	<menuitem id="education_class_root" name="Education Class" sequence="10"></menuitem>
+  </data>
+</odoo>
