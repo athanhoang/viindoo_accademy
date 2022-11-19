@@ -7,8 +7,6 @@
   			<tree string="Class List">
   				<field name="name"/>
   				<field name="state"/>
-  				<field name="currency_id"/>
-  				<field name="credit"/>
   				<field name="contry_id"/>
   			</tree>
   		</field>
@@ -24,14 +22,14 @@
 	  			<sheet>
 	  				<widget name="web_ribbon" title="Đã lưu trữ" bg_color="bg-warning" attrs="{'invisible': [('active', '=', True)]}" />
 	  				<field name="active" invisible="1"/>
-		  			<group>
-		  				<group>
-		  					<field name="name" placeholder="Input yours name"/>
+	  				<group>
+	  					<field name="name" placeholder="Input yours name" string="Name"/>
+	  					<group>
+		  					<field name="credit" widget='monetary' options="{'currency_field': 'currency_id'}" string="Credit"/>
 			  				<field name="currency_id"/>
-			  				<field name="credit"/>
-			  				<field name="contry_id"/>
 		  				</group>
-		  			</group>
+		  				<field name="contry_id" string="Contry"/>
+	  				</group>
 	  				<notebook>
 	  					<page name="books" string="Books">
 	  						<group>

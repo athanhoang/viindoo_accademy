@@ -19,6 +19,9 @@
 	  				<field name="state" title="State" widget="statusbar"/>
 	  			</header>
 	  			<sheet>
+	  				<div>
+	  					<button name="_confirm" type="action" string="Submit" class="oe_highlight" />
+	  				</div>
 	  				<widget name="web_ribbon" title="Đã lưu trữ" bg_color="bg-warning" attrs="{'invisible': [('active', '=', True)]}" />
 	  				<field name="active" invisible="1"/>
 		  			<group>

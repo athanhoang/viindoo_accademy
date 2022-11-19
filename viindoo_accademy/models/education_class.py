@@ -19,3 +19,12 @@ class EducationClass(models.Model):
     books = fields.Char(string="Books")
     student_ids = fields.Many2many(comodel_name='education.student',relation='class_education_rel',
                                    column1='class_id', column2='student_id')
+
+    def _confirm(self,vals):
+        self.write({'state': 'confirmed'})
+    
+    def _done(self,vals):
+        self.write({'state': 'done'})
+    
+    def _cancel(self,vals):
+        self.write({'state': 'cancelled'})
