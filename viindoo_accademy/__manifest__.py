@@ -28,6 +28,7 @@
         'views/root_menu.xml',
         'views/education_class_view.xml',
         'views/education_student_view.xml',
+        'views/education_student_ethnic_view.xml',
         'views/education_class_view2.xml'
     ],
     # only loaded in demonstration mode
