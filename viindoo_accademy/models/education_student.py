@@ -10,10 +10,9 @@ class EducationStudent(models.Model):
                                  column1='student_id', column2='class_id')
     class_id = fields.Many2one(comodel_name="education.class")
     active = fields.Boolean(default=True)
-    country_ids = fields.Many2many('res.country',string="Country",  )
-    ethnic_ids = fields.Many2many('education.student.ethnic','ethnic_ids')
+    country_id = fields.Many2one('res.country',string="Country",  )
+    ethnic_id = fields.Many2one('education.student.ethnic')
     
-    @api.onchange('ethnic_ids')
+    @api.onchange('ethnic_id')
     def _onchange_country(self):
-        if self.ethnic_ids:
-            self.country_ids = self.ethnic_ids.country_ids
+        self.country_id = self.ethnic_id.country_ids[-1:]

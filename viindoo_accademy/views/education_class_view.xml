@@ -27,6 +27,8 @@
 		  					<field name="students_count"/>
 		  					<field name="historical_count"/>
 		  					<field name="company_id"/>
+		  					<field name="start_date"/>
+		  					<field name="end_date"/>
 		  				</group>
 		  			</group>
 	  				<notebook>
