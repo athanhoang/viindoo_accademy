@@ -21,8 +21,8 @@ class EducationClass(models.Model):
     student_id = fields.One2many('education.student',"class_id")
     student_ids = fields.Many2many(comodel_name='education.student',relation='class_education_rel',
                                    column1='class_id', column2='student_id')
-    students_count = fields.Integer(string="Total student", compute="_count_student")
-    historical_count = fields.Integer(string="Historical Total student", compute="_count_students")
+    students_count = fields.Integer(string="Total student", compute="_count_student", store=True)
+    historical_count = fields.Integer(string="Historical Total student", compute="_count_students", store=True)
     company_id = fields.Many2one(comodel_name='res.company',String="Company", default=lambda self: self.env.company)
     start_date = fields.Datetime(string = "Start date")
     end_date = fields.Datetime(string = "End date")
@@ -42,7 +42,7 @@ class EducationClass(models.Model):
     @api.constrains('start_date','end_date')            
     def _validate_date(self):
         for r in self:
-            if r.start_date > r.end_date:
+            if r.start_date and r.end_date and r.start_date > r.end_date:
                 raise UserError("End date can't set before Start date")
             
 
