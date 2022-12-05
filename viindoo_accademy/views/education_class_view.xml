@@ -6,7 +6,7 @@
   		<field name="arch" type="xml">
   			<tree string="Class List">
   				<field name="name"/>
-  				<field name="state" decoration-success="state=='draft'"/>
+  				<field name="state" decoration-success="state=='draft'"/>	
   			</tree>
   		</field>
   	</record>
@@ -61,7 +61,7 @@
   	<record id="education_class_action" model="ir.actions.act_window">
 	  	<field name="name">Class</field>
 	  	<field name="res_model">education.class</field>
-	  	<field name="view_mode">tree,form,calendar,graph</field>
+	  	<field name="view_mode">tree,form,calendar,graph,pivot</field>
   	</record>
   	<record id="education_class_view_search" model="ir.ui.view">
 		<field name="name">education.class.search</field>
@@ -100,6 +100,16 @@
 			    <field name="students_count" type="measure"/>
 			    <field name="historical_count" type="measure"/>
 			</graph>
+		</field>
+	</record>
+  	<record id="education_class_view_pivot" model="ir.ui.view">
+		<field name="name">education.class.pivot</field>
+		<field name="model">education.class</field>
+		<field name="arch" type="xml">
+			<pivot string="Education Class Pivot">
+			    <field name="students_count" type="measure"/>
+			    <field name="historical_count" type="measure"/>
+			</pivot>
 		</field>
 	</record>
   	<menuitem id="education_class_menu" name="Class" parent="education_class_root" action="education_class_action" sequence="10"></menuitem>
