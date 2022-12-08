@@ -5,7 +5,7 @@
   		<field name="model">education.student</field>
   		<field name="arch" type="xml">
   			<tree string="Student List">
-  				<field name="name"/>
+  				<field name="user_id"/>
   				<field name="class_ids"/>
   				<field name="ethnic_id"/>
   			</tree>
@@ -17,11 +17,12 @@
   		<field name="arch" type="xml">
 	  		<form>
 	  			<sheet>
-	  				<widget name="web_ribbon" title="Đã lưu trữ" bg_color="bg-warning" attrs="{'invisible': [('active', '=', True)]}" />
+	  				<widget name="web_ribbon" title="Đã lưu trữ" 
+	  				bg_color="bg-warning" attrs="{'invisible': [('active', '=', True)]}" />
 	  				<field name="active" invisible="1"/>
 		  			<group>
 		  				<group>
-		  					<field name="name" placeholder="Input yours name"/>
+		  					<field name="user_id"/>
 		  					<field name="ethnic_id" widget="many2one_tags"/>
 		  					<field name="country_id" widget="many2one_tags"/>
 		  				</group>
@@ -50,10 +51,11 @@
 	<field name="model">education.student</field>
 	<field name="arch" type="xml">
 		<search string="Student List">
-			<field name="name"/>
+			<field name="user_id"/>
 		</search>
 	</field>
 	</record>
-  	<menuitem id="education_student_menu" name="Students" parent="education_class_root" action="education_student_action" sequence="10"></menuitem>
+  	<menuitem id="education_student_menu" name="Students" parent="education_class_root" 
+  	action="education_student_action" sequence="10" groups="academy_admin"></menuitem>
    </data>
 </odoo>
