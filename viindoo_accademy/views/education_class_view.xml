@@ -43,11 +43,6 @@
 	  						</group>
 	  					</page>
 	  					<page name="student" string="Student">
- 							<tree editable="bottom">
- 								<field name="student_id"/>
-	  						</tree>
-	  					</page>
-	  					<page name="student" string="Historical Student">
  							<tree>
  								<field name="student_ids" string="Detals"/>
 	  						</tree>
@@ -62,11 +57,13 @@
 	  		</form>
   		</field>
   	</record>
+  	
   	<record id="education_class_action" model="ir.actions.act_window">
 	  	<field name="name">Class</field>
 	  	<field name="res_model">education.class</field>
 	  	<field name="view_mode">tree,form,calendar,graph,pivot</field>
   	</record>
+
   	<record id="education_class_view_search" model="ir.ui.view">
 		<field name="name">education.class.search</field>
 		<field name="model">education.class</field>

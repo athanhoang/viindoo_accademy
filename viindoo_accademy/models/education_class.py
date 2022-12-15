@@ -44,15 +44,11 @@ class EducationClass(models.Model):
     def _validate_date(self):
         for r in self:
             if r.start_date and r.end_date and r.start_date > r.end_date:
-                raise UserError("End date can't set before Start date")
-            
-
-
-    # def _confirm(self,vals):
-    #     self.write({'state': 'confirmed'})
-    #
-    # def _done(self,vals):
-    #     self.write({'state': 'done'})
-    #
-    # def _cancel(self,vals):
-    #     self.write({'state': 'cancelled'})
+                raise UserError("End date can't set before Start date")        
+    
+    
+    
+    
+    
+    
+    

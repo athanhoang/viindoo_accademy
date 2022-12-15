@@ -4,3 +4,5 @@ access_education_student_base,education_student,model_education_student,base.gro
 access_education_class_user,education_class,model_education_class,academy_user,1,1,1,1
 access_education_ethnic_user,education_student_ethnic,model_education_student_ethnic,academy_admin,1,1,1,1
 access_education_student_admin,education_student,model_education_student,academy_admin,1,1,1,1
+access_academy_enrollment_admin,academy_enrollment,model_academy_enrollment,academy_admin,1,1,1,1
+access_enroll_students_admin,enroll_students,model_enroll_students,academy_admin,1,1,1,1
