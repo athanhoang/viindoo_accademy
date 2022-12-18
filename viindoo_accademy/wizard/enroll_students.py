@@ -17,9 +17,9 @@ class EnrollStudents(models.TransientModel):
             for s in self.student_ids:
                 vals = {
                     'enrollment_date': self.enrollment_date,
-                    'class_id': class_ids.id,
-                    'student_id': self.student_ids.id               
+                    'class_id': c.id,
+                    'student_id': s.id               
                 }
                 vals_list.append(vals)
-                self.env['academy.enrollment'].create(vals_list)
-            return
+        self.env['academy.enrollment'].create(vals_list)
+        return
