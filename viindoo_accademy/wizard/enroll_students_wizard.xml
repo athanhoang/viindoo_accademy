@@ -7,7 +7,9 @@
 	  		<form>
 	  			<group>
 					<field name="student_ids" widget="many2many_tags"/>
+					<field name="class_ids" widget="many2many_tags"/>
 					<field name="enrollment_date"/>
+					<field name="is_class_model"/>
 				</group>
 				<footer>
 					<button name="action_enroll_student_apply" string="Submit" type="object" class="btn-primary" data-hotkey="q"/>
@@ -24,6 +26,13 @@
 	  	<field name="target">new</field>
 	  	<field name="binding_model_id" ref="model_education_class"/> 
   	</record>
-
+  	
+   	<record id="launch_enroll_class_action" model="ir.actions.act_window">
+	  	<field name="name">Enroll Class</field>
+	  	<field name="res_model">enroll.students</field>
+	  	<field name="view_mode">form</field>
+	  	<field name="target">new</field>
+	  	<field name="binding_model_id" ref="model_education_student"/> 
+  	</record>
   	</data>
 </odoo>
