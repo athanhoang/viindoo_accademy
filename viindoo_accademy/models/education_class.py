@@ -35,7 +35,7 @@ class EducationClass(models.Model):
         for r in self:
             r.students_count =  len(r.student_id)
 
-    @api.depends('student_ids')            
+    @api.depends('student_ids')
     def _count_students(self):
         for r in self:
             r.historical_count =  len(r.student_ids)

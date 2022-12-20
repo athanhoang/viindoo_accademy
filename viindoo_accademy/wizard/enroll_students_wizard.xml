@@ -6,10 +6,9 @@
   		<field name="arch" type="xml">
 	  		<form>
 	  			<group>
-					<field name="student_ids" widget="many2many_tags"/>
-					<field name="class_ids" widget="many2many_tags"/>
+					<field name="student_ids" widget="many2many_tags" attrs="{'invisible': [('current_model', '=', 'education.student')]}"/>
+					<field name="class_ids" widget="many2many_tags" attrs="{'invisible': [('current_model', '=', 'education.class')]}"/>
 					<field name="enrollment_date"/>
-					<field name="is_class_model"/>
 				</group>
 				<footer>
 					<button name="action_enroll_student_apply" string="Submit" type="object" class="btn-primary" data-hotkey="q"/>
