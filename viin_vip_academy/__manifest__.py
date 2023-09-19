@@ -28,6 +28,7 @@
         'views/education_class_vip_view.xml'
     ],
     'price': 29.9,
+    'currency': 'EUR',
     # only loaded in demonstration mode
     'demo': [
         'demo/demo.xml',
