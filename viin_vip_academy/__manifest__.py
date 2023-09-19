@@ -27,6 +27,7 @@
         'security/ir.model.access.csv',
         'views/education_class_vip_view.xml'
     ],
+    'price': 29.9,
     # only loaded in demonstration mode
     'demo': [
         'demo/demo.xml',
