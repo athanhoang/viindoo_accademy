@@ -1,5 +1,5 @@
 {
-    'name': "Employees Branding For Viindoo",
+    'name': "Employees Branding For Viindoo 2",
     'name_vi_VN': "Giao diện Viindoo cho module Employees",
 
     'summary': """
