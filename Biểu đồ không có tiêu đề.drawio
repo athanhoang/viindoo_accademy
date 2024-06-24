@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-24T08:51:17.440Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="nVNXHMU0rBh1s9Asf1Va" version="24.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-24T08:52:31.065Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="wq7Hu_I8FyMgacXBtxKh" version="24.6.1" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="989" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="819" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,7 +19,7 @@
         </mxCell>
         <UserObject label="&lt;span style=&quot;font-size: 10px;&quot;&gt;FRS Baseline&lt;/span&gt;" link="https://tms.vinfast.vn/browse/EEI-2372" id="qIckF98StNaj-yUu7WlP-8">
           <mxCell style="whiteSpace=wrap;html=1;fontSize=12;rounded=1;strokeColor=default;align=center;verticalAlign=middle;spacing=10;fontFamily=Helvetica;fontColor=#0000EE;fontStyle=4;fillColor=default;" parent="dNxyNK7c78bLwvsdeMH5-20" vertex="1">
-            <mxGeometry x="150" y="30" width="120" height="60" as="geometry" />
+            <mxGeometry x="100" y="30" width="120" height="60" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="qIckF98StNaj-yUu7WlP-13" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="dNxyNK7c78bLwvsdeMH5-20" source="qIckF98StNaj-yUu7WlP-10" edge="1">
@@ -58,7 +58,7 @@
         </mxCell>
         <UserObject label="&lt;span style=&quot;font-size: 10px;&quot;&gt;Test Package&lt;/span&gt;" link="https://tms.vinfast.vn/browse/EEI-2372" id="7vbJa-Z3su7h4x0WSQ4t-17">
           <mxCell style="whiteSpace=wrap;html=1;fontSize=12;rounded=1;strokeColor=default;align=center;verticalAlign=middle;spacing=10;fontFamily=Helvetica;fontColor=#0000EE;fontStyle=4;fillColor=default;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
-            <mxGeometry x="150" y="30" width="120" height="60" as="geometry" />
+            <mxGeometry x="100" y="30" width="120" height="60" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="" link="https://vingroupjsc.sharepoint.com/:x:/r/sites/VF-EEQualityCentre/_layouts/15/Doc.aspx?sourcedoc=%7B7188D6CC-D743-4151-A7EC-9FD6CC27E06A%7D&amp;file=VF3_Release%20Note.xlsx&amp;action=default&amp;mobileredirect=true&amp;wdsle=0" id="7vbJa-Z3su7h4x0WSQ4t-30">
@@ -82,11 +82,6 @@
         </mxCell>
         <mxCell id="7vbJa-Z3su7h4x0WSQ4t-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-21" source="7vbJa-Z3su7h4x0WSQ4t-30" target="7vbJa-Z3su7h4x0WSQ4t-36">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qIckF98StNaj-yUu7WlP-27" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="dNxyNK7c78bLwvsdeMH5-19" target="qIckF98StNaj-yUu7WlP-26" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="105" y="210" as="sourcePoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="qIckF98StNaj-yUu7WlP-30" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;dashed=1;" parent="dNxyNK7c78bLwvsdeMH5-19" source="qIckF98StNaj-yUu7WlP-24" target="qIckF98StNaj-yUu7WlP-26" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -121,6 +116,11 @@
             <mxPoint x="669.9999999999998" y="70" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <UserObject label="&lt;span style=&quot;font-size: 10px;&quot;&gt;FIP&lt;/span&gt;" link="https://tms.vinfast.vn/browse/EEI-2372" id="7vbJa-Z3su7h4x0WSQ4t-39">
+          <mxCell style="whiteSpace=wrap;html=1;fontSize=12;rounded=1;strokeColor=default;align=center;verticalAlign=middle;spacing=10;fontFamily=Helvetica;fontColor=#0000EE;fontStyle=4;fillColor=default;" vertex="1" parent="7vbJa-Z3su7h4x0WSQ4t-18">
+            <mxGeometry x="100" y="40" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-22" value="Test Plan" style="swimlane;html=1;startSize=20;horizontal=0;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
           <mxGeometry x="20" y="380" width="900" height="140" as="geometry" />
         </mxCell>
@@ -203,11 +203,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qIckF98StNaj-yUu7WlP-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" target="qIckF98StNaj-yUu7WlP-8" edge="1">
+        <mxCell id="qIckF98StNaj-yUu7WlP-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" target="qIckF98StNaj-yUu7WlP-8" edge="1" source="qIckF98StNaj-yUu7WlP-48">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="225" y="90" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="225" y="180" />
+              <mxPoint x="200" y="180" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -215,13 +215,13 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="225" y="270" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="225" y="300" />
+              <mxPoint x="200" y="300" />
             </Array>
           </mxGeometry>
         </mxCell>
         <UserObject label="FRS&lt;br&gt;Delivering" link="https://tms.vinfast.vn/browse/VFM-201341" id="qIckF98StNaj-yUu7WlP-48">
           <mxCell style="ellipse;whiteSpace=wrap;html=1;fontSize=10;fontStyle=1;labelBackgroundColor=none;labelBorderColor=none;fontColor=#0392FF;" parent="1" vertex="1">
-            <mxGeometry x="185" y="10" width="80" height="80" as="geometry" />
+            <mxGeometry x="160" y="10" width="80" height="80" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="7vbJa-Z3su7h4x0WSQ4t-1" value="CR của 1 FRS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
