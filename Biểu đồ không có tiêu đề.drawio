@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-24T10:01:21.771Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="-J-i36tgMGkTucx7mTe6" version="24.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-24T10:01:45.343Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="R4rwq1LySUriqRq5Fsjo" version="24.6.1" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1103" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -278,7 +278,7 @@
         <mxCell id="7vbJa-Z3su7h4x0WSQ4t-171" value="Log work" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="7vbJa-Z3su7h4x0WSQ4t-170">
           <mxGeometry x="790" y="100" width="60" height="30" as="geometry" />
         </mxCell>
-        <UserObject label="&lt;span style=&quot;font-size: 10px;&quot;&gt;EEQ Plan&lt;/span&gt;" link="https://tms.vinfast.vn/browse/EEI-2372" id="7vbJa-Z3su7h4x0WSQ4t-172">
+        <UserObject label="&lt;span style=&quot;font-size: 10px;&quot;&gt;Test Item&lt;/span&gt;" link="https://tms.vinfast.vn/browse/EEI-2372" id="7vbJa-Z3su7h4x0WSQ4t-172">
           <mxCell style="whiteSpace=wrap;html=1;fontSize=12;rounded=0;strokeColor=default;align=center;verticalAlign=middle;spacing=10;fontFamily=Helvetica;fontColor=#0000EE;fontStyle=4;fillColor=default;" vertex="1" parent="7vbJa-Z3su7h4x0WSQ4t-170">
             <mxGeometry x="100" y="40" width="120" height="60" as="geometry" />
           </mxCell>
