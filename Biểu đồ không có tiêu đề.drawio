@@ -1,12 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2024-06-24T09:48:57.289Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="j7oSxU0l_nol9sy1Xeck" version="24.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-24T10:01:21.771Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="-J-i36tgMGkTucx7mTe6" version="24.6.1" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="1366" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1103" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <UserObject label="JIRA" link="https://vingroupjsc.sharepoint.com/:x:/r/sites/VF-EEQualityCentre/_layouts/15/Doc.aspx?sourcedoc=%7B268B624A-8D3B-4E9C-AA28-62E9198A5E5C%7D&amp;file=LHD_VN_VF3_Master%20Tracker.xlsx&amp;action=default&amp;mobileredirect=true" id="dNxyNK7c78bLwvsdeMH5-19">
           <mxCell style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;whiteSpace=wrap;fontSize=7;" parent="1" vertex="1">
-            <mxGeometry x="120" y="120" width="920" height="660" as="geometry">
+            <mxGeometry x="120" y="120" width="920" height="800" as="geometry">
               <mxRectangle x="120" y="120" width="40" height="50" as="alternateBounds" />
             </mxGeometry>
           </mxCell>
@@ -264,6 +264,31 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="7vbJa-Z3su7h4x0WSQ4t-168" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.488;entryY=-0.051;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-19" source="qIckF98StNaj-yUu7WlP-31" target="7vbJa-Z3su7h4x0WSQ4t-167">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="500" />
+              <mxPoint x="179" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7vbJa-Z3su7h4x0WSQ4t-170" value="Test items" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-19">
+          <mxGeometry x="20" y="660" width="900" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="7vbJa-Z3su7h4x0WSQ4t-171" value="Log work" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="7vbJa-Z3su7h4x0WSQ4t-170">
+          <mxGeometry x="790" y="100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;span style=&quot;font-size: 10px;&quot;&gt;EEQ Plan&lt;/span&gt;" link="https://tms.vinfast.vn/browse/EEI-2372" id="7vbJa-Z3su7h4x0WSQ4t-172">
+          <mxCell style="whiteSpace=wrap;html=1;fontSize=12;rounded=0;strokeColor=default;align=center;verticalAlign=middle;spacing=10;fontFamily=Helvetica;fontColor=#0000EE;fontStyle=4;fillColor=default;" vertex="1" parent="7vbJa-Z3su7h4x0WSQ4t-170">
+            <mxGeometry x="100" y="40" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="7vbJa-Z3su7h4x0WSQ4t-178" value="NOT CONCERNED" style="whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="7vbJa-Z3su7h4x0WSQ4t-170">
+          <mxGeometry x="470" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7vbJa-Z3su7h4x0WSQ4t-179" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-19" source="7vbJa-Z3su7h4x0WSQ4t-167" target="7vbJa-Z3su7h4x0WSQ4t-172">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="qIckF98StNaj-yUu7WlP-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;endArrow=classic;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" target="qIckF98StNaj-yUu7WlP-8" edge="1" source="qIckF98StNaj-yUu7WlP-48">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="225" y="90" as="sourcePoint" />
@@ -316,14 +341,14 @@
         <mxCell id="qIckF98StNaj-yUu7WlP-44" value="Gắn Issue mustfix" style="whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="1290" y="640" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qIckF98StNaj-yUu7WlP-35" value="&lt;div&gt;Checking&lt;/div&gt;Điền thông tin Test plan" style="whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="qIckF98StNaj-yUu7WlP-35" value="C" style="whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="730" y="830" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qIckF98StNaj-yUu7WlP-36" value="Tạo subtask" style="whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="885" y="830" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qIckF98StNaj-yUu7WlP-38" value="Assign/Điền plan" style="whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="1045" y="830" width="120" height="60" as="geometry" />
+        <mxCell id="qIckF98StNaj-yUu7WlP-38" value="Assign" style="whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="610" y="1000" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qIckF98StNaj-yUu7WlP-40" value="Checking/Fill result" style="whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="1205" y="830" width="120" height="60" as="geometry" />
@@ -332,12 +357,6 @@
           <mxGeometry x="1375" y="830" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qIckF98StNaj-yUu7WlP-34" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="qIckF98StNaj-yUu7WlP-35" target="qIckF98StNaj-yUu7WlP-36" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qIckF98StNaj-yUu7WlP-39" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="qIckF98StNaj-yUu7WlP-36" target="qIckF98StNaj-yUu7WlP-38" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qIckF98StNaj-yUu7WlP-41" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="qIckF98StNaj-yUu7WlP-38" target="qIckF98StNaj-yUu7WlP-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qIckF98StNaj-yUu7WlP-43" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="qIckF98StNaj-yUu7WlP-40" target="qIckF98StNaj-yUu7WlP-42" edge="1">
