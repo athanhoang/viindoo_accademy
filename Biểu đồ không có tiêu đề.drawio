@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-24T09:48:06.524Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="dkNIdfAJ6D_5S34EkuUm" version="24.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-24T09:48:32.114Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="sj_P0bwp3aKdsySrcMu_" version="24.6.1" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="574" dy="312" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -191,40 +191,6 @@
         <mxCell id="qIckF98StNaj-yUu7WlP-33" value="EEQ Plan" style="swimlane;html=1;startSize=20;horizontal=0;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
           <mxGeometry x="20" y="520" width="900" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="qIckF98StNaj-yUu7WlP-34" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="qIckF98StNaj-yUu7WlP-33" source="qIckF98StNaj-yUu7WlP-35" target="qIckF98StNaj-yUu7WlP-36" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qIckF98StNaj-yUu7WlP-35" value="&lt;div&gt;Checking&lt;/div&gt;Điền thông tin Test plan" style="whiteSpace=wrap;html=1;fontSize=10;" parent="qIckF98StNaj-yUu7WlP-33" vertex="1">
-          <mxGeometry x="25" y="40" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="qIckF98StNaj-yUu7WlP-39" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="qIckF98StNaj-yUu7WlP-33" source="qIckF98StNaj-yUu7WlP-36" target="qIckF98StNaj-yUu7WlP-38" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qIckF98StNaj-yUu7WlP-36" value="Tạo subtask" style="whiteSpace=wrap;html=1;fontSize=10;" parent="qIckF98StNaj-yUu7WlP-33" vertex="1">
-          <mxGeometry x="180" y="40" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="qIckF98StNaj-yUu7WlP-41" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="qIckF98StNaj-yUu7WlP-33" source="qIckF98StNaj-yUu7WlP-38" target="qIckF98StNaj-yUu7WlP-40" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="7vbJa-Z3su7h4x0WSQ4t-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="qIckF98StNaj-yUu7WlP-33" source="qIckF98StNaj-yUu7WlP-38" target="7vbJa-Z3su7h4x0WSQ4t-2">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="410" y="115" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="qIckF98StNaj-yUu7WlP-38" value="Assign/Điền plan" style="whiteSpace=wrap;html=1;fontSize=10;" parent="qIckF98StNaj-yUu7WlP-33" vertex="1">
-          <mxGeometry x="340" y="40" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="qIckF98StNaj-yUu7WlP-43" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="qIckF98StNaj-yUu7WlP-33" source="qIckF98StNaj-yUu7WlP-40" target="qIckF98StNaj-yUu7WlP-42" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qIckF98StNaj-yUu7WlP-40" value="Checking/Fill result" style="whiteSpace=wrap;html=1;fontSize=10;" parent="qIckF98StNaj-yUu7WlP-33" vertex="1">
-          <mxGeometry x="500" y="40" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="qIckF98StNaj-yUu7WlP-42" value="Done" style="whiteSpace=wrap;html=1;fontSize=10;" parent="qIckF98StNaj-yUu7WlP-33" vertex="1">
-          <mxGeometry x="670" y="40" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="7vbJa-Z3su7h4x0WSQ4t-2" value="Log work" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qIckF98StNaj-yUu7WlP-33">
           <mxGeometry x="790" y="100" width="60" height="30" as="geometry" />
         </mxCell>
@@ -344,6 +310,40 @@
         </mxCell>
         <mxCell id="qIckF98StNaj-yUu7WlP-44" value="Gắn Issue mustfix" style="whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="1290" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qIckF98StNaj-yUu7WlP-35" value="&lt;div&gt;Checking&lt;/div&gt;Điền thông tin Test plan" style="whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="730" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qIckF98StNaj-yUu7WlP-36" value="Tạo subtask" style="whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="885" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qIckF98StNaj-yUu7WlP-38" value="Assign/Điền plan" style="whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1045" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qIckF98StNaj-yUu7WlP-40" value="Checking/Fill result" style="whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1205" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qIckF98StNaj-yUu7WlP-42" value="Done" style="whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1375" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qIckF98StNaj-yUu7WlP-34" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="qIckF98StNaj-yUu7WlP-35" target="qIckF98StNaj-yUu7WlP-36" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qIckF98StNaj-yUu7WlP-39" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="qIckF98StNaj-yUu7WlP-36" target="qIckF98StNaj-yUu7WlP-38" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7vbJa-Z3su7h4x0WSQ4t-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qIckF98StNaj-yUu7WlP-38" target="7vbJa-Z3su7h4x0WSQ4t-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="755" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qIckF98StNaj-yUu7WlP-41" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="qIckF98StNaj-yUu7WlP-38" target="qIckF98StNaj-yUu7WlP-40" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qIckF98StNaj-yUu7WlP-43" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="qIckF98StNaj-yUu7WlP-40" target="qIckF98StNaj-yUu7WlP-42" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
