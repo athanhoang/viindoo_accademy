@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-24T08:33:07.151Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="5BOGLw7TV8flHmADP7Fn" version="24.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-24T08:35:32.175Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="KK-Jov1jTeXK6XMAVuKu" version="24.6.1" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="989" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -34,7 +34,7 @@
         <mxCell id="qIckF98StNaj-yUu7WlP-14" value="Specification&lt;div&gt;UI/UX, Requirement, schematics&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=10;" parent="dNxyNK7c78bLwvsdeMH5-20" vertex="1">
           <mxGeometry x="465" y="30" width="120" height="60" as="geometry" />
         </mxCell>
-        <UserObject label="Các CCB được apply vào" link="https://tms.vinfast.vn/browse/CCB-1562" id="qIckF98StNaj-yUu7WlP-18">
+        <UserObject label="Check CCB apply" link="https://tms.vinfast.vn/browse/CCB-1562" id="qIckF98StNaj-yUu7WlP-18">
           <mxCell style="whiteSpace=wrap;html=1;fontSize=12;rounded=1;strokeColor=default;align=center;verticalAlign=middle;spacing=10;fontFamily=Helvetica;fontColor=#0000EE;fontStyle=4;fillColor=default;" parent="dNxyNK7c78bLwvsdeMH5-20" vertex="1">
             <mxGeometry x="625" y="30" width="120" height="60" as="geometry" />
           </mxCell>
