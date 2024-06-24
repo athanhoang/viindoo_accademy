@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-24T07:33:56.256Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="8T3IWGQjkm_goWb7hjyd" version="24.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-24T08:33:07.151Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="5BOGLw7TV8flHmADP7Fn" version="24.6.1" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="1195" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="989" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -15,29 +15,33 @@
         <mxCell id="qIckF98StNaj-yUu7WlP-11" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="dNxyNK7c78bLwvsdeMH5-20" source="qIckF98StNaj-yUu7WlP-8" target="qIckF98StNaj-yUu7WlP-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qIckF98StNaj-yUu7WlP-8" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Chek FRS Baseline&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=10;" parent="dNxyNK7c78bLwvsdeMH5-20" vertex="1">
-          <mxGeometry x="25" y="30" width="120" height="60" as="geometry" />
+        <UserObject label="&lt;span style=&quot;font-size: 10px;&quot;&gt;Chek FRS Baseline&lt;/span&gt;" link="https://tms.vinfast.vn/browse/EEI-2372" id="qIckF98StNaj-yUu7WlP-8">
+          <mxCell style="whiteSpace=wrap;html=1;fontSize=12;rounded=1;strokeColor=default;align=center;verticalAlign=middle;spacing=10;fontFamily=Helvetica;fontColor=#0000EE;fontStyle=4;fillColor=default;" parent="dNxyNK7c78bLwvsdeMH5-20" vertex="1">
+            <mxGeometry x="150" y="30" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="qIckF98StNaj-yUu7WlP-13" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="dNxyNK7c78bLwvsdeMH5-20" source="qIckF98StNaj-yUu7WlP-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="60" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="qIckF98StNaj-yUu7WlP-13" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="dNxyNK7c78bLwvsdeMH5-20" source="qIckF98StNaj-yUu7WlP-10" target="qIckF98StNaj-yUu7WlP-12" edge="1">
+        <mxCell id="7vbJa-Z3su7h4x0WSQ4t-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-20" source="qIckF98StNaj-yUu7WlP-10" target="qIckF98StNaj-yUu7WlP-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qIckF98StNaj-yUu7WlP-10" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;CAN/LIN versionn để lấy DB...etc&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=10;" parent="dNxyNK7c78bLwvsdeMH5-20" vertex="1">
-          <mxGeometry x="180" y="30" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="qIckF98StNaj-yUu7WlP-12" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;ODX để lấy FW Flash ECU&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=10;" parent="dNxyNK7c78bLwvsdeMH5-20" vertex="1">
-          <mxGeometry x="340" y="30" width="120" height="60" as="geometry" />
+          <mxGeometry x="305" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qIckF98StNaj-yUu7WlP-14" value="Specification&lt;div&gt;UI/UX, Requirement, schematics&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=10;" parent="dNxyNK7c78bLwvsdeMH5-20" vertex="1">
-          <mxGeometry x="490" y="30" width="120" height="60" as="geometry" />
+          <mxGeometry x="465" y="30" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qIckF98StNaj-yUu7WlP-15" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="dNxyNK7c78bLwvsdeMH5-20" source="qIckF98StNaj-yUu7WlP-12" target="qIckF98StNaj-yUu7WlP-14" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <UserObject label="EEI-2372" link="https://tms.vinfast.vn/browse/EEI-2372" id="ztss_zcHzE37luHq0jF5-2">
-          <mxCell style="fontColor=#0000EE;fontStyle=4;rounded=1;overflow=hidden;spacing=10;" parent="dNxyNK7c78bLwvsdeMH5-20" vertex="1">
-            <mxGeometry x="770" y="40" width="90" height="40" as="geometry" />
+        <UserObject label="Các CCB được apply vào" link="https://tms.vinfast.vn/browse/CCB-1562" id="qIckF98StNaj-yUu7WlP-18">
+          <mxCell style="whiteSpace=wrap;html=1;fontSize=12;rounded=1;strokeColor=default;align=center;verticalAlign=middle;spacing=10;fontFamily=Helvetica;fontColor=#0000EE;fontStyle=4;fillColor=default;" parent="dNxyNK7c78bLwvsdeMH5-20" vertex="1">
+            <mxGeometry x="625" y="30" width="120" height="60" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="qIckF98StNaj-yUu7WlP-19" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="dNxyNK7c78bLwvsdeMH5-20" source="qIckF98StNaj-yUu7WlP-14" target="qIckF98StNaj-yUu7WlP-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-21" value="Test Package" style="swimlane;html=1;startSize=20;horizontal=0;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
           <mxGeometry x="20" y="120" width="860" height="120" as="geometry" />
         </mxCell>
@@ -53,7 +57,7 @@
         <mxCell id="qIckF98StNaj-yUu7WlP-22" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Release note của các ECU&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=10;" parent="dNxyNK7c78bLwvsdeMH5-21" vertex="1">
           <mxGeometry x="180" y="30" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qIckF98StNaj-yUu7WlP-24" value="Create release note&lt;div&gt;Chuẩn bị plan, test case ...&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=10;" parent="dNxyNK7c78bLwvsdeMH5-21" vertex="1">
+        <mxCell id="qIckF98StNaj-yUu7WlP-24" value="Create release note&lt;div&gt;Chuẩn bị plan, test case, Test env&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=10;" parent="dNxyNK7c78bLwvsdeMH5-21" vertex="1">
           <mxGeometry x="340" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <UserObject label="VFM-220692" link="https://tms.vinfast.vn/browse/VFM-220692" id="ztss_zcHzE37luHq0jF5-3">
@@ -61,9 +65,6 @@
             <mxGeometry x="530" y="30" width="110" height="40" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="qIckF98StNaj-yUu7WlP-21" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="dNxyNK7c78bLwvsdeMH5-19" source="qIckF98StNaj-yUu7WlP-8" target="qIckF98StNaj-yUu7WlP-20" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="qIckF98StNaj-yUu7WlP-27" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="dNxyNK7c78bLwvsdeMH5-19" source="qIckF98StNaj-yUu7WlP-20" target="qIckF98StNaj-yUu7WlP-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -98,7 +99,7 @@
         <mxCell id="qIckF98StNaj-yUu7WlP-47" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="dNxyNK7c78bLwvsdeMH5-22" source="qIckF98StNaj-yUu7WlP-44" target="qIckF98StNaj-yUu7WlP-46" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <UserObject label="VFM-220694" link="https://tms.vinfast.vn/browse/VFM-220694" id="ztss_zcHzE37luHq0jF5-5">
+        <UserObject label="Test Plan" link="https://tms.vinfast.vn/browse/VFM-221913" id="ztss_zcHzE37luHq0jF5-5">
           <mxCell style="fontColor=#0000EE;fontStyle=4;rounded=1;overflow=hidden;spacing=10;" parent="dNxyNK7c78bLwvsdeMH5-22" vertex="1">
             <mxGeometry x="375" y="60" width="110" height="40" as="geometry" />
           </mxCell>
@@ -159,28 +160,46 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qIckF98StNaj-yUu7WlP-9" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" target="qIckF98StNaj-yUu7WlP-8" edge="1">
+        <mxCell id="7vbJa-Z3su7h4x0WSQ4t-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-19" source="qIckF98StNaj-yUu7WlP-18" target="qIckF98StNaj-yUu7WlP-24">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="225" y="90" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="705" y="100" />
+              <mxPoint x="420" y="100" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <UserObject label="FRS" linkTarget="_blank" link="https://tms.vinfast.vn/browse/VFM-201341" id="qIckF98StNaj-yUu7WlP-6">
-          <mxCell style="fontColor=#0000EE;fontStyle=4;rounded=1;overflow=hidden;spacing=10;" parent="1" vertex="1">
-            <mxGeometry x="280" y="30" width="110" height="40" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="qIckF98StNaj-yUu7WlP-18" value="Các CCB được apply vào" style="whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="780" y="150" width="120" height="60" as="geometry" />
+        <mxCell id="7vbJa-Z3su7h4x0WSQ4t-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-19" source="qIckF98StNaj-yUu7WlP-10" target="qIckF98StNaj-yUu7WlP-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="385" y="100" />
+              <mxPoint x="420" y="100" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="qIckF98StNaj-yUu7WlP-19" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="qIckF98StNaj-yUu7WlP-14" target="qIckF98StNaj-yUu7WlP-18" edge="1">
+        <mxCell id="7vbJa-Z3su7h4x0WSQ4t-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endSize=8;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-19" source="qIckF98StNaj-yUu7WlP-14" target="qIckF98StNaj-yUu7WlP-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="545" y="100" />
+              <mxPoint x="420" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qIckF98StNaj-yUu7WlP-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;endArrow=classic;" parent="1" target="qIckF98StNaj-yUu7WlP-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="225" y="90" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="225" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7vbJa-Z3su7h4x0WSQ4t-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qIckF98StNaj-yUu7WlP-48" target="qIckF98StNaj-yUu7WlP-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qIckF98StNaj-yUu7WlP-48" value="Delivering" style="ellipse;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="185" y="10" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="ztss_zcHzE37luHq0jF5-1" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="414" y="35" width="60" height="30" as="geometry" />
-        </mxCell>
+        <UserObject label="FRS&lt;br&gt;Delivering" link="https://tms.vinfast.vn/browse/VFM-201341" id="qIckF98StNaj-yUu7WlP-48">
+          <mxCell style="ellipse;whiteSpace=wrap;html=1;fontSize=10;fontStyle=1;labelBackgroundColor=none;labelBorderColor=none;fontColor=#0392FF;" parent="1" vertex="1">
+            <mxGeometry x="185" y="10" width="80" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="7vbJa-Z3su7h4x0WSQ4t-1" value="CR của 1 FRS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="60" y="250" width="60" height="30" as="geometry" />
         </mxCell>
